@@ -136,7 +136,7 @@ RUN     git clone --recurse-submodules -b v1.28.1 https://github.com/grpc/grpc &
 # setup an user
 ############################################################################
 ARG     USER_ID=1000
-ARG     GROUP_ID=1000
+ARG     GROUP_ID=100
 RUN     set -x && \
         groupadd \
             --system \
